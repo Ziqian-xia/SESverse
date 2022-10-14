@@ -3,8 +3,8 @@ Type: Package
 Title: A collection of calculation methods of SES
 Version: 0.1.0
 Authors@R:  c(
-    person("Ziqian", "Xia", "Ziqian.research@gmail.com", role = c("cre")),
-    person("Jinquan", "Ye", "yebarryallen@gmail.com", role = c("cre")),
+    person("Ziqian", "Xia", role = c("cre")),
+    person("Jinquan", "Ye", role = c("cre")),
     person("Chuanpeng","Hu", role = c("aut","cph", "fnd"))
   )
 Description: More about what it does (maybe more than one line)
