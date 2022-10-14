@@ -7,7 +7,6 @@ Author:  c(
     person("Jinquan", "Ye", "yebarryallen@gmail.com", role = c("cre")),
     person("Chuanpeng","Hu", role = c("aut","cph", "fnd"))
   )
-Maintainer: Ziqian Xia <Ziqian.research@gmail.com>
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
 License: What license is it under?
