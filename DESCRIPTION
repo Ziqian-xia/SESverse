@@ -2,7 +2,7 @@ Package: SESverse
 Type: Package
 Title: A collection of calculation methods of SES
 Version: 0.1.0
-Author:  c(
+Authors@R:  c(
     person("Ziqian", "Xia", "Ziqian.research@gmail.com", role = c("cre")),
     person("Jinquan", "Ye", "yebarryallen@gmail.com", role = c("cre")),
     person("Chuanpeng","Hu", role = c("aut","cph", "fnd"))
