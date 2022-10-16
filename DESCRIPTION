@@ -2,7 +2,7 @@ Package: SESverse
 Type: Package
 Title: A collection of calculation methods of SES
 Version: 0.1.0
-Authors@R:  c(
+Authors@R: c(
     person("Ziqian", "Xia", role = c("cre")),
     person("Jinquan", "Ye", role = c("cre")),
     person("Chuanpeng","Hu", role = c("aut","cph", "fnd"))
@@ -14,4 +14,4 @@ Encoding: UTF-8
 LazyData: true
 Depends: 
     R (>= 2.10)
-RoxygenNote: 7.1.2
+RoxygenNote: 7.2.1
