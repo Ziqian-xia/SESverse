@@ -8,7 +8,7 @@
 # Note: can only be reproduced using CFPS data because of the occupation
 
 ## CFPS ##
-#' Computation method of SES proposed by McDermott, 2019 (CFPS only)
+#' McDermott:Computation method of SES proposed by McDermott, 2019 (CFPS only)
 #'
 #' @param occup_m mother's occupation
 #' @param edu_m mother's education
