@@ -21,11 +21,11 @@ jedn<-function(occup_m,edu_m,data='CFPS'){
     tibble(occup_m,edu_m)%>%
       dplyr::mutate(occup_cat = recode(occup_m, "1"= 7, "2"=6, "3"=5,  "7"= 5, "4"=4, "5"= 4,
                                        "6"= 4, "8"= 3, "9"=2, "10"=1, "11"=1,
-                                       "-8"=-8,"80000"= 8, .default = -8))%>% # recode education
+                                       "-8"=-8,"80000"= 8, .default = -8))%>% # recode occupation
       dplyr::mutate(edu_cat = cut(edu_m,
                                   breaks = c(-0.01,3.5,6.5,9.5,12.5,14.5,16.5, 22.5),
                                   labels = c("1", "2", "3", "4", "5", "6", "7"))) %>%
-      dplyr::mutate(occup_cat = as.numeric(as.character(occup_cat)),# convert income and education into numeric variables
+      dplyr::mutate(occup_cat = as.numeric(as.character(occup_cat)),# convert occupation and education into numeric variables
                     edu_cat = as.numeric(as.character(edu_cat)))%>%
       dplyr::mutate(SES_jedn_cfps = (occup_cat*7+edu_cat*4)) %>%
       dplyr:: select(SES_jedn_cfps) -> df

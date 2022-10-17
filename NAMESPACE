@@ -3,5 +3,6 @@
 export(betan)
 export(hello)
 export(jedn)
+export(mcde)
 export(moog)
 import(dplyr)
