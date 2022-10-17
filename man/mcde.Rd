@@ -2,7 +2,7 @@
 % Please edit documentation in R/mcde.R
 \name{mcde}
 \alias{mcde}
-\title{Title}
+\title{Computation method of SES proposed by McDermott, 2019 (CFPS only)}
 \usage{
 mcde(occup_m, edu_m, occup_f, edu_f, data = "CFPS")
 }
@@ -21,5 +21,5 @@ mcde(occup_m, edu_m, occup_f, edu_f, data = "CFPS")
 A single column of SES
 }
 \description{
-Title
+Computation method of SES proposed by McDermott, 2019 (CFPS only)
 }
